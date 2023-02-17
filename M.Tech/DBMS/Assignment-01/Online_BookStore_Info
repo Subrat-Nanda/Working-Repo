@@ -1,0 +1,23 @@
+Online BookStore
+----------------------------
+
+
+Design a database system that can be used to store information about book publication, distribution
+and sales. It is assumed that each book has a publisher who sell books in the market through distributors who in turn maintain adequate warehouses 
+to store hard copies the books available with them. Retail shops or customers purchase the books either directly or through online shopping agencies like Amazon.
+The attributes of a book a re : Title, Authors , Unique code (e.g. ISBN), Year and City of publication and the unit Price.
+
+A publisher can publish multiple books each year. A book can have multiple authors) and a person can be author of multiple books.
+When a distributor receives purchase requests from its customers, it checks the current stocks and if the desired books are available, 
+informs about their availability. Note a purchase request may involve multiple copies of a book.
+
+If the number available copies of the books requested cannot be met from the available stock, the
+distributor places a purchase order to the publisher to supply adequate number copies of the books. 
+
+The publisher on receipt of such a purchase order sends the copies of the ordered books in a consignment with a bill through transporters 
+confirming the expected date of delivery. 
+
+The distributor is expected to make payment to the publisher on the bill raised after the consignment is received. Similarly, customers or 
+retail shops are expected to make payment to the distributor from whom the books have been purchased.
+
+Each bill of purchase records the details of the purchase made and :namely purchase order no., the title of the book, number of copies , date of purchase and total cost of each consignment.
