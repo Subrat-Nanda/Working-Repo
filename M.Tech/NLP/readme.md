@@ -53,7 +53,7 @@ In linguistics and NLP, corpus (literally Latin for body) refers to a collection
 Stop words are those words which are filtered out before further processing of text, since these words contribute little to overall meaning, given that they are generally the most common words in a language. For instance, "the," "and," and "a," while all required words in a particular passage, don't generally contribute greatly to one's understanding of content. As a simple example, the following panagram is just as legible if the stop words are removed:
 
 
-                                         <s>The<s> quick brown fox jumps over <s>the<s> lazy dog.
+                                         <s>The</s> quick brown fox jumps over <s>the</s> lazy dog.
 
 ###### 8. Parts-of-speech (POS) Tagging
  
